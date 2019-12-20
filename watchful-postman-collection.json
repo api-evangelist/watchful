@@ -1,0 +1,2564 @@
+{
+    "id": "dbaf3f07a35b2679295c3658275f51b6",
+    "name": "Watchful",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "f36331e45a8c124b4ad8b173634256bd",
+            "name": "Get A List Of Audits",
+            "url": "httpswatchful.li\/api\/v1\/audits",
+            "description": "Returns a list of audits",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limitstart",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "ORDER by this field separete by comas. Add + \/ - after field for set ASC \/ DESC: type+,name-",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "65f7194ac1d2879d6d72d4b6506bf626",
+            "name": "Create A Audit",
+            "url": "httpswatchful.li\/api\/v1\/audits",
+            "description": "Create a audit.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "JSON object Feedback",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "07797114f1be8f1468c161a6a0e5885c",
+            "name": "Get The List Of Fields",
+            "url": "httpswatchful.li\/api\/v1\/audits\/metadata",
+            "description": "Returns a list of fields",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "1ec90ddae74fc2b9d5e6324cf3d88d13",
+            "name": "Delete A Specific Audit",
+            "url": "httpswatchful.li\/api\/v1\/audits\/{id}",
+            "description": "Delete a specific audit.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "3f865814e10d95190c7d800d2f90ca50",
+            "name": "Find Audit By ID",
+            "url": "httpswatchful.li\/api\/v1\/audits\/{id}",
+            "description": "Returns a audit based on ID",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "36cae32879946808b68164c4aca4b8bd",
+            "name": "Get A List Extensions",
+            "url": "httpswatchful.li\/api\/v1\/extensions",
+            "description": "Returns a list Extensions",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "ext_name",
+                    "description": "Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "siteids",
+                    "description": "List of sites id separated by comma",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ext_prefix",
+                    "description": "Do a 'LIKE' search, you can also use '%'. technical name of the extension com_xxxx",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "version",
+                    "description": "Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "vUpdate",
+                    "description": "update available for this extension",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limitstart",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "ORDER by this field separete by comas. Add + \/ - after field for set ASC \/ DESC: type+,name-",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "f776692fe0b2ba4193ded33e23203115",
+            "name": "Get The List Of Fields",
+            "url": "httpswatchful.li\/api\/v1\/extensions\/metadata",
+            "description": "Returns a list of fields",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "910e7801fc95b0c7ea95c15647767705",
+            "name": "Set 'ignore Updates' For A Given Extension \/ Site_id",
+            "url": "httpswatchful.li\/api\/v1\/extensions\/{id}\/ignore",
+            "description": "Set 'ignore updates' for a given extension \/ site_id",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "653f51e51a8c3017c4c617c066c3d42a",
+            "name": "Remove 'ignore Updates' For A Given Extension",
+            "url": "httpswatchful.li\/api\/v1\/extensions\/{id}\/unignore",
+            "description": "Remove 'ignore updates' for a given extension",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "7fa68d18712e431555db088b1a4f171a",
+            "name": "Update The Extension On The Remote Site",
+            "url": "httpswatchful.li\/api\/v1\/extensions\/{id}\/update",
+            "description": "Update the extension on the remote site",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "7ea51b0e6cfb86ab07665210c755701d",
+            "name": "Get Feedbacks",
+            "url": "httpswatchful.li\/api\/v1\/feedbacks",
+            "description": "Returns a list of feedbacks",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "88fd1dc7892311147c081bd2590073db",
+            "name": "Create A Feedback",
+            "url": "httpswatchful.li\/api\/v1\/feedbacks",
+            "description": "Create a feedback",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "JSON object Feedback",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "20d6ca97eb499f4cde3f9a0d6c0b1ff2",
+            "name": "Get The List Of Fields",
+            "url": "httpswatchful.li\/api\/v1\/feedbacks\/metadata",
+            "description": "Returns a list of fields",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "20c9cc13c5d4cd3709f2b982e0b313ac",
+            "name": "Get A List Of Logs",
+            "url": "httpswatchful.li\/api\/v1\/logs",
+            "description": "Returns a list of logs",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "log_type",
+                    "description": "Type of the log",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "log_entry",
+                    "description": "Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from",
+                    "description": "Logs after this date, format YYYY-MM-DD HH:MM:SS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "Logs before this date, format YYYY-MM-DD HH:MM:SS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limitstart",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "ORDER by this field separete by comas. Add + \/ - after field for set ASC \/ DESC: type+,name-",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "981e28c7b05d80e405967f24218f1de1",
+            "name": "Get A CSV Or PDF File Contain The List Of Logs",
+            "url": "httpswatchful.li\/api\/v1\/logs\/export",
+            "description": "Returns a file contain the list of logs",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Format of exported file (PDF or CSV)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "site",
+                    "description": "Site id of the log",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter_type",
+                    "description": "Type of the log",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "search",
+                    "description": "Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startdate",
+                    "description": "Logs after this date, format YYYY-MM-DD HH:MM:SS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "enddate",
+                    "description": "Logs before this date, format YYYY-MM-DD HH:MM:SS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startid",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "216a1372366f51dcfea88b789a6a2974",
+            "name": "Get The List Of Fields",
+            "url": "httpswatchful.li\/api\/v1\/logs\/metadata",
+            "description": "Returns a list of fields",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "b15bbd2befde94b62e4ef66f84e07fc6",
+            "name": "Get The List Of Log Types",
+            "url": "httpswatchful.li\/api\/v1\/logs\/types",
+            "description": "Returns a list of log types",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "39113fdf1f6fc2e4fff80b56285f330f",
+            "name": "Delete A Specific Log",
+            "url": "httpswatchful.li\/api\/v1\/logs\/{id}",
+            "description": "Delete a specific log",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "ff4fe7a8051bbda190e6b58f29b99712",
+            "name": "",
+            "url": "httpswatchful.li\/api\/v1\/packages",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "file",
+                    "description": "ZIP package",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "00e3688768c2386d06ef870ca3ea603a",
+            "name": "Returns A PDF Report For A Specific Site",
+            "url": "httpswatchful.li\/api\/v1\/reports\/sites\/{id}",
+            "description": "Returns a PDF report based on a site ID",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from",
+                    "description": "Logs after this date, format YYYY-MM-DD HH:MM:SS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "Logs before this date, format YYYY-MM-DD HH:MM:SS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "reports",
+                    "description": "Type of reports separate by comas: Ga,Logs,Uptime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "log_type",
+                    "description": "Type of the log",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "compare",
+                    "description": "Define if you want show previous values in Google Analytics graph",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "9c0782607fb7dde5dfa96d6a7cfaffbb",
+            "name": "Find Sites By ID",
+            "url": "httpswatchful.li\/api\/v1\/reports\/tags\/{id}",
+            "description": "Returns a report based on a site ID",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from",
+                    "description": "Logs after this date, format YYYY-MM-DD HH:MM:SS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "Logs before this date, format YYYY-MM-DD HH:MM:SS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "reports",
+                    "description": "Type of reports separate by comas: Ga,Logs,Uptime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "log_type",
+                    "description": "Type of the log",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "compare",
+                    "description": "Define if you want show previous values in Google Analytics graph",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "887398141ebc27372923ff1b3628ae15",
+            "name": "Get A List Of Sites",
+            "url": "httpswatchful.li\/api\/v1\/sites",
+            "description": "Returns a list of Sites",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "siteids",
+                    "description": "List of sites id separated by comma",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "Site name. Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "access_url",
+                    "description": "Access URL. Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "j_version",
+                    "description": "Joomla version. Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ip",
+                    "description": "Ip address. Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "jUpdate",
+                    "description": "Joomla core update status (1: update required, 0: update not required)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "canUpdate",
+                    "description": "canUpdate",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "published",
+                    "description": "Is published",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "error",
+                    "description": "Has errors",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "nbUpdates",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "up",
+                    "description": "Is online",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limitstart",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "ORDER by this field separete by comas. Add + \/ - after field for set ASC \/ DESC: type+,name-",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "8fe4ea67113080eb3943f91c2ece9021",
+            "name": "Create A Site",
+            "url": "httpswatchful.li\/api\/v1\/sites",
+            "description": "Create a site",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "JSON object Feedback",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "cbf40ed58af2221efa779d23144f006f",
+            "name": "Get The List Of Fields",
+            "url": "httpswatchful.li\/api\/v1\/sites\/metadata",
+            "description": "Returns a list of fields",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "9b895d9759cd7fc3315c5bc0487d2f37",
+            "name": "Delete A Specific Site",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}",
+            "description": "Delete a specific Site",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "52c3d33afbb403948abb0bf2c07257ec",
+            "name": "Find Sites By ID",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}",
+            "description": "Return a site based on ID",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "851eb3ae7d9ed916f77edf82fcf6087e",
+            "name": "Update A Site",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}",
+            "description": "Update a site",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "body",
+                    "description": "JSON object Feedback",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "685bba13b168195149e8dc1442e789b7",
+            "name": "Return Audits For A Specific Website",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/audits",
+            "description": "Return audits for a specific website",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limitstart",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "ORDER by this field separete by comas. Add + \/ - after field for set ASC \/ DESC: type+,name-",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "86bf9dd53d6f384c5133e55b6d51c37c",
+            "name": "Create An Audit For The Site",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/audits",
+            "description": "Create an audit for the site",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "8e8f9d61ed873a11618cf504e9e0bc93",
+            "name": "Add The Site To The Backup Queue",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/backupnow",
+            "description": "Add the site to the backup queue",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "9098d630be71e408ef3c1f713b260660",
+            "name": "Return Backup Profile",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/backupprofiles",
+            "description": "Return backup profile",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "d53ea73a2899c6cef167dbeed7f2d7d5",
+            "name": "List Of Latest Backups",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/backups",
+            "description": "List of latest backups",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "279c070e601a23ab217922730c655b7a",
+            "name": "Start A Remote Backup For The Site",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/backupstart",
+            "description": "Start a remote backup for the site",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "108dbd03de400e0f93ae84c0b152c8f3",
+            "name": "Step (continue) A Remote Backup For The Site",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/backupstep",
+            "description": "Step (continue) a remote backup for the site",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "9c155922e56cea9f69dd82e3b661439b",
+            "name": "Get Extensions For A Site",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/extensions",
+            "description": "Get extensions for a site",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limitstart",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "ORDER by this field separete by comas. Add + \/ - after field for set ASC \/ DESC: type+,name-",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "6ec34b946cc0fe45971454ad319ef9fd",
+            "name": "Install Extension",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/extensions",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "url",
+                    "description": "URL to install the extension from",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "8d3941f4ccab880bedc08d37b881377d",
+            "name": "Return Logs For A Specific Website",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/logs",
+            "description": "Return logs for a specific website",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "log_entry",
+                    "description": "Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "log_type",
+                    "description": "Type of the log",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from",
+                    "description": "Logs after this date, format YYYY-MM-DD HH:MM:SS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "Logs before this date, format YYYY-MM-DD HH:MM:SS",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limitstart",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "ORDER by this field separete by comas. Add + \/ - after field for set ASC \/ DESC: type+,name-",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "5d594b85c38ae1d08c32cb8c1d2f4093",
+            "name": "Create A Custom Log For A Specific Website",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/logs",
+            "description": "Create a custom log for a specific website",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "body",
+                    "description": "JSON object Feedback",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "0491e98cee4d64f171a54a8332a5fbc0",
+            "name": "Delete Uptime Monitor",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/monitor",
+            "description": "Return boolean",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "604d19e6f849e50883e129b550d16832",
+            "name": "Post Uptime Monitor",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/monitor",
+            "description": "Return boolean",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "d6e85bdf00495ffa054d64823ecb9d8b",
+            "name": "Scan The Site For Malware",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/scanner",
+            "description": "Scan the site for malware",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "a5120f0b2299e35e234976061bcf118c",
+            "name": "SEO Analyze For A Page",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/seo",
+            "description": "SEO analyze for a page",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "515a1ce9726171cad10198153ff8fe30",
+            "name": "Return Tags For A Specific Website",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/tags",
+            "description": "Return tags for a specific website",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "Site name. Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "Bootstrap color of the tag",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limitstart",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "ORDER by this field separete by comas. Add + \/ - after field for set ASC \/ DESC: type+,name-",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "168894fddc04c6af0a736f3d5221d17b",
+            "name": "Add Tags For A Specific Website",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/tags",
+            "description": "Add tags for a specific website",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "body",
+                    "description": "JSON object Feedback",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "eff0770a7b4e423b3379fc48891c1676",
+            "name": "Update Joomla Core On The Remote Site",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/updatejoomla",
+            "description": "Update Joomla core on the remote site",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "f9f7633ffb7c69ffbada462fa99f2627",
+            "name": "Return Uptime Data",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/uptime",
+            "description": "Return uptime data",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "49796c063665977493cb88c1f10e9c89",
+            "name": "Validate The Site, Return The New Logs",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/validate",
+            "description": "validate the site",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "a0c4637d0ae39812bd935110a0c2a2d3",
+            "name": "Validate The Site, Return The Debug Information",
+            "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/validatedebug",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "f781c2196f2bc046368bec08591211b9",
+            "name": "Get A List Of SSO Users",
+            "url": "httpswatchful.li\/api\/v1\/ssousers",
+            "description": "Returns a list of SSO Users",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "d26617db8a5fdd95bd7d7b73e6e0af83",
+            "name": "Create A SSO User",
+            "url": "httpswatchful.li\/api\/v1\/ssousers",
+            "description": "Create a SSO User",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "JSON object Feedback",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "003c2bd6835ff6b4d21f58f26335608f",
+            "name": "Delete A Specific SSO User",
+            "url": "httpswatchful.li\/api\/v1\/ssousers\/{id}",
+            "description": "Delete a specific SSO User",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "1adc9b6b0ad43abae50101c4b6d26175",
+            "name": "Find SSO User By ID",
+            "url": "httpswatchful.li\/api\/v1\/ssousers\/{id}",
+            "description": "Returns a SSO User based on ID",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "2e5aaf7007d84f8fda0f2feffcc137bb",
+            "name": "Update A SSO User",
+            "url": "httpswatchful.li\/api\/v1\/ssousers\/{id}",
+            "description": "Update a SSO User",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "body",
+                    "description": "JSON object Feedback",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "e44ba673bce250f53f46b0feb7bdb54c",
+            "name": "Get A List Of Tags",
+            "url": "httpswatchful.li\/api\/v1\/tags",
+            "description": "Returns a list of tags",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "Site name. Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "Bootstrap color of the tag",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limitstart",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "ORDER by this field separete by comas. Add + \/ - after field for set ASC \/ DESC: type+,name-",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "0a9bc05b3c1c1321388678ecb6567d1b",
+            "name": "Create A Tag",
+            "url": "httpswatchful.li\/api\/v1\/tags",
+            "description": "Create a tag",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "JSON object Feedback",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "230538ec03cf2429d67f5be15474f23a",
+            "name": "Get The List Of Fields",
+            "url": "httpswatchful.li\/api\/v1\/tags\/metadata",
+            "description": "Returns a list of fields",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "94a648fa7712a1084139e7d473d11d51",
+            "name": "Delete A Specific Tag",
+            "url": "httpswatchful.li\/api\/v1\/tags\/{id}",
+            "description": "Delete a specific tag",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "b81e12e2b6b0b02dcf1f171960b7babe",
+            "name": "Find Tag By ID",
+            "url": "httpswatchful.li\/api\/v1\/tags\/{id}",
+            "description": "Returns a tag based on ID",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "dbe1b74261ec0492e48aca27743788a9",
+            "name": "Update A Tag",
+            "url": "httpswatchful.li\/api\/v1\/tags\/{id}",
+            "description": "Update a tag",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "body",
+                    "description": "JSON object Feedback",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "6f330084fabceebf2cd150960b62214c",
+            "name": "Find Sites By Tag ID",
+            "url": "httpswatchful.li\/api\/v1\/tags\/{id}\/sites",
+            "description": "Returns a list of sites based with a specific tag id",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "Site name. Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "access_url",
+                    "description": "Access URL. Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "j_version",
+                    "description": "Joomla version. Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ip",
+                    "description": "Ip address. Do a 'LIKE' search, you can also use '%'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "jUpdate",
+                    "description": "Joomla core update status (1: update required, 0: update not required)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "published",
+                    "description": "Is published",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "error",
+                    "description": "Has errors",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "nbUpdates",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "up",
+                    "description": "Is online",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of object to return (max 100, default 25)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limitstart",
+                    "description": "Start of the return (default 0)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "ORDER by this field separete by comas. Add + \/ - after field for set ASC \/ DESC: type+,name-",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "04bc89ab5bd222623dbb16f857ce2e69",
+            "name": "Get List Of Versions",
+            "url": "httpswatchful.li\/api\/v1\/versions",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        },
+        {
+            "id": "15e09b1e3ae759c7f4ad4c80fc0b3526",
+            "name": "Find A Version By ID",
+            "url": "httpswatchful.li\/api\/v1\/versions\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "ID of audit that needs to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Fields to return separate by comas: name,id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "rawModeData": ""
+        }
+    ]
+}
