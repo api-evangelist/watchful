@@ -9,8 +9,8 @@
         "relative data",
         "service api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/watchful\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -27,8 +27,12 @@
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/watchful.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/watchful\/master\/watchful-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/watchful-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/watchful\/master\/watchful-postman-collection.json"
                 }
             ]
         },
@@ -45,14 +49,22 @@
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/watchful-li.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/watchful\/master\/watchful-li-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/watchful-li-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/watchful\/master\/watchful-li-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Application Gallery",
             "url": "https:\/\/watchful.li\/apps\/"
