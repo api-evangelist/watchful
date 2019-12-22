@@ -1,5 +1,5 @@
 {
-    "id": "42c27c515a9f2219485838e4eaf082c1",
+    "id": "72bbbf0342b6115b1387329556b4bc23",
     "name": "watchful.li",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "4c1d8ec163ff323600e3b46e4527e698",
+            "id": "3fdb0102e6262f105ce7e5d575d36647",
             "name": "Get a list of audits",
             "url": "http:\/\/watchful.li\/api\/v1\/audits",
             "description": "Returns a list of audits",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "ac89af71af3a1af746e128bb68285d54",
+            "id": "fd237d0a8d17c5d53691c591e4aa1245",
             "name": "Create a audit",
             "url": "http:\/\/watchful.li\/api\/v1\/audits",
             "description": "Create a audit",
@@ -74,11 +74,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "0c86b5ef9a6b82411b5ab71c14a35a2d",
+            "id": "ff46d9d10893f4d25277ae134c27fd2c",
             "name": "Get the list of fields",
             "url": "http:\/\/watchful.li\/api\/v1\/audits\/metadata",
             "description": "Returns a list of fields",
@@ -97,11 +97,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "308bdddb289667966278f2e0c3c6146c",
+            "id": "bf7288e25902c712d4580d96e2253d87",
             "name": "Delete a specific audit",
             "url": "http:\/\/watchful.li\/api\/v1\/audits\/{id}",
             "description": "Delete a specific audit",
@@ -128,11 +128,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "ff985b356d8a47a13e2b9f8f97513072",
+            "id": "2a6719e9ecaa6a061247368e16c2518b",
             "name": "Find audit by ID",
             "url": "http:\/\/watchful.li\/api\/v1\/audits\/{id}",
             "description": "Returns a audit based on ID",
@@ -166,11 +166,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "2b1ad5a20c8de3914baeb0531b93c5b4",
+            "id": "5c549a66f350f78cf00de21ebec5e845",
             "name": "Get a list Extensions",
             "url": "http:\/\/watchful.li\/api\/v1\/extensions",
             "description": "Returns a list Extensions",
@@ -253,11 +253,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "1e1ebaad3cde8280878e528e2ad2a137",
+            "id": "20a5680ff368d7dad33ef9325342d93d",
             "name": "Get the list of fields",
             "url": "http:\/\/watchful.li\/api\/v1\/extensions\/metadata",
             "description": "Returns a list of fields",
@@ -276,11 +276,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "531da0a937452d9956a6bc6b22fff8e7",
+            "id": "1d7fa1138857b37dcf540b8559fae194",
             "name": "Set 'ignore updates' for a given extension \/ site_id",
             "url": "http:\/\/watchful.li\/api\/v1\/extensions\/{id}\/ignore",
             "description": "Set 'ignore updates' for a given extension \/ site_id",
@@ -307,11 +307,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "7bb578ac4a79868b0a90af634d1f5ba5",
+            "id": "54a2fca39d65e23c411cdc20cd29ec2c",
             "name": "Remove 'ignore updates' for a given extension",
             "url": "http:\/\/watchful.li\/api\/v1\/extensions\/{id}\/unignore",
             "description": "Remove 'ignore updates' for a given extension",
@@ -338,11 +338,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "d90ceac80e700ee785dd12c14f696523",
+            "id": "4069da74af5b509b0fed0adc15cd7f5a",
             "name": "Update the extension on the remote site",
             "url": "http:\/\/watchful.li\/api\/v1\/extensions\/{id}\/update",
             "description": "Update the extension on the remote site",
@@ -369,11 +369,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "d4a841a55b8615bef6b7e79fa2df6893",
+            "id": "1b8abb9ce91925534304683b2a37ef97",
             "name": "Get feedbacks",
             "url": "http:\/\/watchful.li\/api\/v1\/feedbacks",
             "description": "Returns a list of feedbacks",
@@ -400,11 +400,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         },
         {
-            "id": "5f10c342d94bd2fc60520e4a74e60821",
+            "id": "09ce73c6db2bca6d7c8d285d72429073",
             "name": "Create a feedback",
             "url": "http:\/\/watchful.li\/api\/v1\/feedbacks",
             "description": "Create a feedback",
@@ -423,7 +423,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42c27c515a9f2219485838e4eaf082c1",
+            "collectionId": "72bbbf0342b6115b1387329556b4bc23",
             "rawModeData": ""
         }
     ]
