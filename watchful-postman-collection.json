@@ -1,5 +1,5 @@
 {
-    "id": "dbaf3f07a35b2679295c3658275f51b6",
+    "id": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
     "name": "Watchful",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "f36331e45a8c124b4ad8b173634256bd",
+            "id": "07f2c7658d17179195042db6e855d4b2",
             "name": "Get A List Of Audits",
             "url": "httpswatchful.li\/api\/v1\/audits",
             "description": "Returns a list of audits",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "65f7194ac1d2879d6d72d4b6506bf626",
+            "id": "f75873720f917ad13f50616db6551589",
             "name": "Create A Audit",
             "url": "httpswatchful.li\/api\/v1\/audits",
             "description": "Create a audit.",
@@ -82,11 +82,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "07797114f1be8f1468c161a6a0e5885c",
+            "id": "6ab0ee48133c58afee74669a3cc25f2a",
             "name": "Get The List Of Fields",
             "url": "httpswatchful.li\/api\/v1\/audits\/metadata",
             "description": "Returns a list of fields",
@@ -105,11 +105,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "1ec90ddae74fc2b9d5e6324cf3d88d13",
+            "id": "baed0d8a7638a6ee8b5abe5e2eb716a0",
             "name": "Delete A Specific Audit",
             "url": "httpswatchful.li\/api\/v1\/audits\/{id}",
             "description": "Delete a specific audit.",
@@ -136,11 +136,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "3f865814e10d95190c7d800d2f90ca50",
+            "id": "51dc20ad89604cf8ba80eacb14b42509",
             "name": "Find Audit By ID",
             "url": "httpswatchful.li\/api\/v1\/audits\/{id}",
             "description": "Returns a audit based on ID",
@@ -174,11 +174,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "36cae32879946808b68164c4aca4b8bd",
+            "id": "79ed0d2772c3e5040ee6259a98484773",
             "name": "Get A List Extensions",
             "url": "httpswatchful.li\/api\/v1\/extensions",
             "description": "Returns a list Extensions",
@@ -261,11 +261,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "f776692fe0b2ba4193ded33e23203115",
+            "id": "27200e3221be1a7846dc742fef5c9278",
             "name": "Get The List Of Fields",
             "url": "httpswatchful.li\/api\/v1\/extensions\/metadata",
             "description": "Returns a list of fields",
@@ -284,11 +284,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "910e7801fc95b0c7ea95c15647767705",
+            "id": "054ca4e726e81f2b93f36a200fb99977",
             "name": "Set 'ignore Updates' For A Given Extension \/ Site_id",
             "url": "httpswatchful.li\/api\/v1\/extensions\/{id}\/ignore",
             "description": "Set 'ignore updates' for a given extension \/ site_id",
@@ -315,11 +315,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "653f51e51a8c3017c4c617c066c3d42a",
+            "id": "4bfc3a2fc2f85478324e7096cfbac6a0",
             "name": "Remove 'ignore Updates' For A Given Extension",
             "url": "httpswatchful.li\/api\/v1\/extensions\/{id}\/unignore",
             "description": "Remove 'ignore updates' for a given extension",
@@ -346,11 +346,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "7fa68d18712e431555db088b1a4f171a",
+            "id": "9286f64985cd57b2097f4f5a0e56b30e",
             "name": "Update The Extension On The Remote Site",
             "url": "httpswatchful.li\/api\/v1\/extensions\/{id}\/update",
             "description": "Update the extension on the remote site",
@@ -377,11 +377,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "7ea51b0e6cfb86ab07665210c755701d",
+            "id": "bd09dbac6c20498f7c09afe17b0b929e",
             "name": "Get Feedbacks",
             "url": "httpswatchful.li\/api\/v1\/feedbacks",
             "description": "Returns a list of feedbacks",
@@ -408,11 +408,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "88fd1dc7892311147c081bd2590073db",
+            "id": "0fce7d35740e881b6d332a0dddba6f56",
             "name": "Create A Feedback",
             "url": "httpswatchful.li\/api\/v1\/feedbacks",
             "description": "Create a feedback",
@@ -439,11 +439,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "20d6ca97eb499f4cde3f9a0d6c0b1ff2",
+            "id": "822298a881eb9fde49218575072a1df7",
             "name": "Get The List Of Fields",
             "url": "httpswatchful.li\/api\/v1\/feedbacks\/metadata",
             "description": "Returns a list of fields",
@@ -462,11 +462,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "20c9cc13c5d4cd3709f2b982e0b313ac",
+            "id": "ff751602154aeb5fa0ae29e3c4bc154f",
             "name": "Get A List Of Logs",
             "url": "httpswatchful.li\/api\/v1\/logs",
             "description": "Returns a list of logs",
@@ -542,11 +542,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "981e28c7b05d80e405967f24218f1de1",
+            "id": "305fa7ee78aa097f89640d9aabf01b45",
             "name": "Get A CSV Or PDF File Contain The List Of Logs",
             "url": "httpswatchful.li\/api\/v1\/logs\/export",
             "description": "Returns a file contain the list of logs",
@@ -622,11 +622,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "216a1372366f51dcfea88b789a6a2974",
+            "id": "d54a587030fc1c380a567d44e56a3a4c",
             "name": "Get The List Of Fields",
             "url": "httpswatchful.li\/api\/v1\/logs\/metadata",
             "description": "Returns a list of fields",
@@ -645,11 +645,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "b15bbd2befde94b62e4ef66f84e07fc6",
+            "id": "2672e52e295a9fd7dce24b5c7b6a43f0",
             "name": "Get The List Of Log Types",
             "url": "httpswatchful.li\/api\/v1\/logs\/types",
             "description": "Returns a list of log types",
@@ -668,11 +668,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "39113fdf1f6fc2e4fff80b56285f330f",
+            "id": "b572ae3eba7d2f490c0d5a982e0d65e6",
             "name": "Delete A Specific Log",
             "url": "httpswatchful.li\/api\/v1\/logs\/{id}",
             "description": "Delete a specific log",
@@ -699,11 +699,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "ff4fe7a8051bbda190e6b58f29b99712",
+            "id": "9834c6072dadd1e2af1ecfd39ad43c70",
             "name": "",
             "url": "httpswatchful.li\/api\/v1\/packages",
             "description": "",
@@ -730,11 +730,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "00e3688768c2386d06ef870ca3ea603a",
+            "id": "9a3fdd3082c2c836ee585bda166fbebd",
             "name": "Returns A PDF Report For A Specific Site",
             "url": "httpswatchful.li\/api\/v1\/reports\/sites\/{id}",
             "description": "Returns a PDF report based on a site ID",
@@ -796,11 +796,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "9c0782607fb7dde5dfa96d6a7cfaffbb",
+            "id": "513df4960577d016e936cf66185fbd04",
             "name": "Find Sites By ID",
             "url": "httpswatchful.li\/api\/v1\/reports\/tags\/{id}",
             "description": "Returns a report based on a site ID",
@@ -862,11 +862,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "887398141ebc27372923ff1b3628ae15",
+            "id": "15d8cbfc99fc02ef82661d90e2ac1475",
             "name": "Get A List Of Sites",
             "url": "httpswatchful.li\/api\/v1\/sites",
             "description": "Returns a list of Sites",
@@ -991,11 +991,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "8fe4ea67113080eb3943f91c2ece9021",
+            "id": "fdab2911aee41e0b73be4e8d01efc0b0",
             "name": "Create A Site",
             "url": "httpswatchful.li\/api\/v1\/sites",
             "description": "Create a site",
@@ -1022,11 +1022,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "cbf40ed58af2221efa779d23144f006f",
+            "id": "5a22620e35d6cb676b61bda7da56cc24",
             "name": "Get The List Of Fields",
             "url": "httpswatchful.li\/api\/v1\/sites\/metadata",
             "description": "Returns a list of fields",
@@ -1045,11 +1045,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "9b895d9759cd7fc3315c5bc0487d2f37",
+            "id": "aa9974eec6dd8a6141efb0171618e1da",
             "name": "Delete A Specific Site",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}",
             "description": "Delete a specific Site",
@@ -1076,11 +1076,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "52c3d33afbb403948abb0bf2c07257ec",
+            "id": "e4698371a820c1911910be3426c5f758",
             "name": "Find Sites By ID",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}",
             "description": "Return a site based on ID",
@@ -1114,11 +1114,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "851eb3ae7d9ed916f77edf82fcf6087e",
+            "id": "e3a7ffd0516ef89b4ea1f30c918077b8",
             "name": "Update A Site",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}",
             "description": "Update a site",
@@ -1152,11 +1152,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "685bba13b168195149e8dc1442e789b7",
+            "id": "91dcd8a8d0176ebd1e21001d2278f084",
             "name": "Return Audits For A Specific Website",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/audits",
             "description": "Return audits for a specific website",
@@ -1211,11 +1211,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "86bf9dd53d6f384c5133e55b6d51c37c",
+            "id": "b5eabaf3d241b23452b8fee91fe8f406",
             "name": "Create An Audit For The Site",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/audits",
             "description": "Create an audit for the site",
@@ -1242,11 +1242,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "8e8f9d61ed873a11618cf504e9e0bc93",
+            "id": "0860abc87065b0f1adc0272733567c29",
             "name": "Add The Site To The Backup Queue",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/backupnow",
             "description": "Add the site to the backup queue",
@@ -1273,11 +1273,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "9098d630be71e408ef3c1f713b260660",
+            "id": "4c1731ed096c8b89d7ef5a156de70862",
             "name": "Return Backup Profile",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/backupprofiles",
             "description": "Return backup profile",
@@ -1304,11 +1304,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "d53ea73a2899c6cef167dbeed7f2d7d5",
+            "id": "b7aa58d7c1886db66620402b818c39e9",
             "name": "List Of Latest Backups",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/backups",
             "description": "List of latest backups",
@@ -1335,11 +1335,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "279c070e601a23ab217922730c655b7a",
+            "id": "afdfecce4606edbf9286af1a4cb89978",
             "name": "Start A Remote Backup For The Site",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/backupstart",
             "description": "Start a remote backup for the site",
@@ -1366,11 +1366,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "108dbd03de400e0f93ae84c0b152c8f3",
+            "id": "562ca1a07aee318d9d94bd0a4710ee7e",
             "name": "Step (continue) A Remote Backup For The Site",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/backupstep",
             "description": "Step (continue) a remote backup for the site",
@@ -1397,11 +1397,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "9c155922e56cea9f69dd82e3b661439b",
+            "id": "398e502f93b8bcee4b02b001fc5026c2",
             "name": "Get Extensions For A Site",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/extensions",
             "description": "Get extensions for a site",
@@ -1456,11 +1456,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "6ec34b946cc0fe45971454ad319ef9fd",
+            "id": "84b5a7647c28fd1a5a683acfad944418",
             "name": "Install Extension",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/extensions",
             "description": "",
@@ -1494,11 +1494,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "8d3941f4ccab880bedc08d37b881377d",
+            "id": "e796126efbc4d9174d0cadd48c69f155",
             "name": "Return Logs For A Specific Website",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/logs",
             "description": "Return logs for a specific website",
@@ -1581,11 +1581,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "5d594b85c38ae1d08c32cb8c1d2f4093",
+            "id": "6a744c9c9ad5482e5f0e9410dbbc8112",
             "name": "Create A Custom Log For A Specific Website",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/logs",
             "description": "Create a custom log for a specific website",
@@ -1619,11 +1619,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "0491e98cee4d64f171a54a8332a5fbc0",
+            "id": "d29ddd125a19e134892296ba2a119adc",
             "name": "Delete Uptime Monitor",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/monitor",
             "description": "Return boolean",
@@ -1650,11 +1650,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "604d19e6f849e50883e129b550d16832",
+            "id": "65fa807ca040b8d440ce6b72ffbfe791",
             "name": "Post Uptime Monitor",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/monitor",
             "description": "Return boolean",
@@ -1681,11 +1681,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "d6e85bdf00495ffa054d64823ecb9d8b",
+            "id": "6b0ffeadedda538ef537a377ab9a7ea3",
             "name": "Scan The Site For Malware",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/scanner",
             "description": "Scan the site for malware",
@@ -1712,11 +1712,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "a5120f0b2299e35e234976061bcf118c",
+            "id": "8a2649fa32470cba780ab9132dd833cc",
             "name": "SEO Analyze For A Page",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/seo",
             "description": "SEO analyze for a page",
@@ -1743,11 +1743,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "515a1ce9726171cad10198153ff8fe30",
+            "id": "5bf46c6e7cac9688dbdbc7c9ecb42a98",
             "name": "Return Tags For A Specific Website",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/tags",
             "description": "Return tags for a specific website",
@@ -1816,11 +1816,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "168894fddc04c6af0a736f3d5221d17b",
+            "id": "5c96ffc5569b3718c408468a80ad5096",
             "name": "Add Tags For A Specific Website",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/tags",
             "description": "Add tags for a specific website",
@@ -1854,11 +1854,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "eff0770a7b4e423b3379fc48891c1676",
+            "id": "6d23458c94f72e0d80029d848049d74b",
             "name": "Update Joomla Core On The Remote Site",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/updatejoomla",
             "description": "Update Joomla core on the remote site",
@@ -1885,11 +1885,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "f9f7633ffb7c69ffbada462fa99f2627",
+            "id": "b404c3fe1ccb9464264bbf9476569de0",
             "name": "Return Uptime Data",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/uptime",
             "description": "Return uptime data",
@@ -1916,11 +1916,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "49796c063665977493cb88c1f10e9c89",
+            "id": "e1a68601636ab78cbfcb40ace70ff9bd",
             "name": "Validate The Site, Return The New Logs",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/validate",
             "description": "validate the site",
@@ -1947,11 +1947,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "a0c4637d0ae39812bd935110a0c2a2d3",
+            "id": "445db7beb1b2d0c4a9949870ba6fcffa",
             "name": "Validate The Site, Return The Debug Information",
             "url": "httpswatchful.li\/api\/v1\/sites\/{id}\/validatedebug",
             "description": "",
@@ -1978,11 +1978,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "f781c2196f2bc046368bec08591211b9",
+            "id": "4fa823d4cfb64db2a3d7d5142ac41cd6",
             "name": "Get A List Of SSO Users",
             "url": "httpswatchful.li\/api\/v1\/ssousers",
             "description": "Returns a list of SSO Users",
@@ -2001,11 +2001,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "d26617db8a5fdd95bd7d7b73e6e0af83",
+            "id": "7025d8eaabae7165a1a5656108ccd481",
             "name": "Create A SSO User",
             "url": "httpswatchful.li\/api\/v1\/ssousers",
             "description": "Create a SSO User",
@@ -2032,11 +2032,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "003c2bd6835ff6b4d21f58f26335608f",
+            "id": "66e83b0209d01e2aaa5c1141f7b6fee7",
             "name": "Delete A Specific SSO User",
             "url": "httpswatchful.li\/api\/v1\/ssousers\/{id}",
             "description": "Delete a specific SSO User",
@@ -2063,11 +2063,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "1adc9b6b0ad43abae50101c4b6d26175",
+            "id": "b1a97615cf155b66fd33b8d0ecef21cf",
             "name": "Find SSO User By ID",
             "url": "httpswatchful.li\/api\/v1\/ssousers\/{id}",
             "description": "Returns a SSO User based on ID",
@@ -2101,11 +2101,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "2e5aaf7007d84f8fda0f2feffcc137bb",
+            "id": "5f4250a427667cf5a1fda16a40acd388",
             "name": "Update A SSO User",
             "url": "httpswatchful.li\/api\/v1\/ssousers\/{id}",
             "description": "Update a SSO User",
@@ -2139,11 +2139,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "e44ba673bce250f53f46b0feb7bdb54c",
+            "id": "f4869aa89db4ce87c68398f9ad41c8d7",
             "name": "Get A List Of Tags",
             "url": "httpswatchful.li\/api\/v1\/tags",
             "description": "Returns a list of tags",
@@ -2205,11 +2205,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "0a9bc05b3c1c1321388678ecb6567d1b",
+            "id": "2cf09691d0262806fbc1c5c5727ec252",
             "name": "Create A Tag",
             "url": "httpswatchful.li\/api\/v1\/tags",
             "description": "Create a tag",
@@ -2236,11 +2236,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "230538ec03cf2429d67f5be15474f23a",
+            "id": "17494f294c7e0e3272dcc9cf1e551e05",
             "name": "Get The List Of Fields",
             "url": "httpswatchful.li\/api\/v1\/tags\/metadata",
             "description": "Returns a list of fields",
@@ -2259,11 +2259,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "94a648fa7712a1084139e7d473d11d51",
+            "id": "d5632fa650c323bd7ab3cf915bac15de",
             "name": "Delete A Specific Tag",
             "url": "httpswatchful.li\/api\/v1\/tags\/{id}",
             "description": "Delete a specific tag",
@@ -2290,11 +2290,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "b81e12e2b6b0b02dcf1f171960b7babe",
+            "id": "2f73124bd347b204a1272f00b12d53ab",
             "name": "Find Tag By ID",
             "url": "httpswatchful.li\/api\/v1\/tags\/{id}",
             "description": "Returns a tag based on ID",
@@ -2328,11 +2328,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "dbe1b74261ec0492e48aca27743788a9",
+            "id": "369867876db0f1cf384dc3035d25f319",
             "name": "Update A Tag",
             "url": "httpswatchful.li\/api\/v1\/tags\/{id}",
             "description": "Update a tag",
@@ -2366,11 +2366,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "6f330084fabceebf2cd150960b62214c",
+            "id": "3a478c7545864f1ddd64b39464a549e8",
             "name": "Find Sites By Tag ID",
             "url": "httpswatchful.li\/api\/v1\/tags\/{id}\/sites",
             "description": "Returns a list of sites based with a specific tag id",
@@ -2488,11 +2488,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "04bc89ab5bd222623dbb16f857ce2e69",
+            "id": "2e88a497cbe0b64a944e962e0f3e642f",
             "name": "Get List Of Versions",
             "url": "httpswatchful.li\/api\/v1\/versions",
             "description": "",
@@ -2519,11 +2519,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         },
         {
-            "id": "15e09b1e3ae759c7f4ad4c80fc0b3526",
+            "id": "4ba27a62cd4f9c7e7306b492e56385c0",
             "name": "Find A Version By ID",
             "url": "httpswatchful.li\/api\/v1\/versions\/{id}",
             "description": "",
@@ -2557,7 +2557,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbaf3f07a35b2679295c3658275f51b6",
+            "collectionId": "6f6bfa75c07f739bd0d8bdb7f0bd625a",
             "rawModeData": ""
         }
     ]
